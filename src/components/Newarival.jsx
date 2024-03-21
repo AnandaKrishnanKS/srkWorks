@@ -2,7 +2,7 @@ import React from 'react'
 import cmmunitylogo from '../assets/images/comunitiicon.jpeg'
 const Newarival = () => {
   return (
-    <div className='text-center'>
+    <div className='text-center w-96 mx-32'>
         <div>
             <h1 className='text-3xl'>NEW ARRIVAL</h1>
             <p className='text-sm font-bold underline mt-3 me-28'>JOIN TODAY</p>

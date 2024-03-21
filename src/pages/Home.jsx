@@ -8,8 +8,8 @@ const Home = () => {
     <div>
         <Menubar/>
        <div className='flex mt-6'>
-           <div className='w-1/2'><Newarival/></div>
-            <div className='w-1/2'><Premiumsection/></div>
+           <Newarival/>
+            <Premiumsection/>
        </div>
     </div>
   )

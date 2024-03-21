@@ -5,7 +5,7 @@ import percenticon from '../assets/images/percenticon.jpeg'
 
 const Premiumsection = () => {
   return (
-    <div className='text-center'>
+    <div className='text-center w-full'>
       <div>
         <p className='text-cyan-400 text-3xl my-2 mb-16'>Unlock Premium Features Now</p>
       </div>
