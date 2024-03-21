@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
         <Menubar/>
-       <div className='flex mt-6'>
+       <div className='lg:flex sm mt-6'>
            <Newarival/>
             <Premiumsection/>
        </div>
