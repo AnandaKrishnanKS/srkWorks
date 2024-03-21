@@ -1,5 +1,8 @@
 import React from 'react'
 import sideimg from '../assets/images/loginlogo.jpeg'
+import { Outlet,Link } from "react-router-dom";
+import Home from './Home';
+
 const Login = () => {
 
   return (
@@ -20,7 +23,7 @@ const Login = () => {
             <input className='w-full p-1 rounded-full border-2 border-black' type="email" id='Email' placeholder='email'/>
            </div>
            <div className='mt-2 mb-2'>
-            <button className='w-full p-1 rounded-full border-2 bg-blue-400 border-black mt-6' type='submit' >continue</button>
+            <button to="Home" className='w-full p-1 rounded-full border-2 bg-blue-400 border-black mt-6 text-center' type='submit' >continue</button>
            </div>
            <div>
             <p className='text-sm text-center my-5'>get ready to recieve an OTP on your phone</p>
@@ -30,6 +33,7 @@ const Login = () => {
         <div className='p-8 w-1/3'> 
             <img src={sideimg} alt="img" />   
         </div>
+        <Outlet />
     </div>
   )
 }

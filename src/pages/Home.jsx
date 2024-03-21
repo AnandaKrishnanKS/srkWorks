@@ -1,7 +1,7 @@
 import React from 'react'
-import Menubar from './Menubar'
-import Newarival from './Newarival'
-import Premiumsection from './Premiumsection'
+import Menubar from '../components/Menubar'
+import Newarival from '../components/Newarival'
+import Premiumsection from '../components/Premiumsection'
 
 const Home = () => {
   return (
